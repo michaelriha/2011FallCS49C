@@ -1,12 +1,8 @@
-Arbitrary Precision Calculator: A four function calculator using arbitrary-precision decimals
- stored in a linked list. Supports */+-, but the division causes a severe memory leak that I was never able to fix. Only had two days to work on it, though. 
+Arbitrary Precision Calculator: A four function calculator using arbitrary-precision decimals stored in a linked list. Supports */+-, but the division causes a severe memory leak that I was never able to fix. Only had two days to work on it, though. 
 
-Sequence Explorer: Calculates how many iterations it
- will take for an input number to reach 1 given the equations:
- 
-if n is even: N(n,b,m) = n/b
-
-if n is odd : N(n,b,m) = n(b^m+1)+b^m-(n%b^m)
+Sequence Explorer: Calculates how many iterations it  will take for an input number to reach 1 given the equations:
+  if n is even: N(n,b,m) = n/b
+  if n is odd : N(n,b,m) = n(b^m+1)+b^m-(n%b^m)
 
 Perfect Numbers: A program that uses an "infinite array" data structure to solve a problem using dynamic programming. It finds perfect numbers, amicable pairs, and their cousins in the form of perfect triplets, quadruplets, etc. within a range provided by the user.
 
