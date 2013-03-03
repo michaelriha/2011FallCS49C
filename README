@@ -3,6 +3,7 @@ Arbitrary Precision Calculator: A four function calculator using arbitrary-preci
 Sequence Explorer: Calculates how many iterations it  will take for an input number to reach 1 given the equations:
   if n is even: N(n,b,m) = n/b
   if n is odd : N(n,b,m) = n(b^m+1)+b^m-(n%b^m)
+Uses an "infinite array" data structure to solve the problem efficiently using dynamic programming
 
 Perfect Numbers: A program that uses an "infinite array" data structure to solve a problem using dynamic programming. It finds perfect numbers, amicable pairs, and their cousins in the form of perfect triplets, quadruplets, etc. within a range provided by the user.
 
