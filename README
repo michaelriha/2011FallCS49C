@@ -1,0 +1,13 @@
+Arbitrary Precision Calculator: A four function calculator using arbitrary-precision decimals
+ stored in a linked list. Supports */+-, but the division causes a severe memory leak that I was never able to fix. Only had two days to work on it, though. 
+
+Sequence Explorer: Calculates how many iterations it
+ will take for an input number to reach 1 given the equations:
+ 
+if n is even: N(n,b,m) = n/b
+
+if n is odd : N(n,b,m) = n(b^m+1)+b^m-(n%b^m)
+
+Perfect Numbers: A program that uses an "infinite array" data structure to solve a problem using dynamic programming. It finds perfect numbers, amicable pairs, and their cousins in the form of perfect triplets, quadruplets, etc. within a range provided by the user.
+
+Sudoku: A program that provides a sudoku grid (from 4x4 to 36x36) and is able to solve and unsolve puzzles. Output gets messed up past about 16x16, but it should theoretically solve puzzles of any size where the dimensions are perfect squares. 
